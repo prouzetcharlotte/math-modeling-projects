@@ -1,0 +1,43 @@
+Dans gnuplot test1:
+set title "Comparaison solution exacte / calculée"
+set xlabel "x"
+set ylabel "u(x, T)"
+set grid
+plot "C:/Users/elsac/Documents/4a/Cpp/solution.dat" using 1:2 with lines lw 2 lc rgb "blue" title "exacte", \
+     "C:/Users/elsac/Documents/4a/Cpp/solution.dat" using 1:3 with lines lw 2 lc rgb "red" title "calculée"
+
+Pour le test2 : on veut centré sur 0,1.02:
+set title "Comparaison solution exacte / calculée"
+set xlabel "x"
+set ylabel "u(x, T)"
+set grid
+
+# Limites des axes
+set xrange [0:1.02]
+set yrange [0:1.02]
+
+plot "C:/Users/elsac/Documents/4a/Cpp/solution.dat" using 1:2 with lines lw 2 lc rgb "blue" title "exacte", \
+     "C:/Users/elsac/Documents/4a/Cpp/solution.dat" using 1:3 with lines lw 2 lc rgb "red" title "calculée"
+
+Pour la pente p:
+# Titre et axes
+set title "Convergence de l'erreur"
+set xlabel "ln(dt)"
+set ylabel "ln(E)"
+set grid
+set autoscale x
+set autoscale y
+
+# Légende à l'intérieur, bas à droite, éléments empilés verticalement
+set key inside bottom right vertical
+
+# Définir la fonction de régression linéaire : f(x) = m*x + b
+f(x) = m*x + b
+
+# Ajuster la droite de régression aux données
+fit f(x) "C:/Users/elsac/Documents/4A/Cpp/pente.dat" using 1:2 via m,b
+
+# Tracer les points et la droite ajustée
+plot "C:/Users/elsac/Documents/4A/Cpp/pente.dat" using 1:2 with points pt 7 title "Points calculés", \
+     f(x) with lines lw 2 lc rgb "red" title sprintf("Droite ajustée (p = %.2f)", m)
+
