@@ -1,4 +1,6 @@
 Bienvenue dans mon dépôt GitHub regroupant mes projets réalisés dans le cadre de ma formation d'ingénieur en mathématiques appliquées et modélisation.  
+- [Support PDF](Systeme-lineaire-grande-dimension/support.pdf)
+- [Rapport PDF](Systeme-lineaire-grande-dimension/rapport.pdf)
 Chaque projet contient :  
 - Le code source dans le dossier `code/`  
 - Le rapport écrit en PDF (si disponible)  
