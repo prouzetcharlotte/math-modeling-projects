@@ -95,9 +95,9 @@ Chaque projet contient :
 **Outils / Librairies** : C++, gnuplot  
 **Résultats attendus** : Profils numériques stables et visualisations des solutions.  
 **Ressources** :  
-- [Code](./C++-EDP/code)  
-- [Rapport](./C++-EDP/rapport.pdf)  
-- [Support visuel](./C++-EDP/support.pdf)
+- [Code](./cpp-edp/code)  
+- [Rapport](./cpp-edp/rapport.pdf)  
+- [Support visuel](./cpp-edp/support.pdf)
 
 ### 9. Open Data
 **Objectif** : Analyse et visualisation de données ouvertes.  
