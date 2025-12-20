@@ -50,9 +50,9 @@ Chaque projet contient :
 **Résultats attendus** : Comparaison des scénarios, graphiques de stockage en fonction des paramètres.  
 **Ressources** :  
 **Ressources** :  
-- [Code](./Analyse-numerique-du-stockage-de-co2-dans-les-forets/code)  
-- [Rapport](./Analyse-numerique-du-stockage-de-co2-dans-les-forets/rapport.pdf)  
-- [Support visuel](./Analyse-numerique-du-stockage-de-co2-dans-les-forets/support.pdf)
+- [Code](./Analyse-numérique-du-stockage-de-co2-dans-les-forets/code)  
+- [Rapport](./Analyse-numérique-du-stockage-de-co2-dans-les-forets/rapport.pdf)  
+- [Support visuel](./Analyse-numérique-du-stockage-de-co2-dans-les-forets/support.pdf)
 
 
 ### 5. Régression linéaire
