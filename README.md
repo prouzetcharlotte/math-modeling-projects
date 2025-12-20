@@ -1,6 +1,6 @@
 Bienvenue dans mon dépôt GitHub regroupant mes projets réalisés dans le cadre de ma formation d'ingénieur en mathématiques appliquées et modélisation.
 Chaque projet contient :  
-- Le code source dans le dossier `code/`  
+- Le code source dans le dossier `code/`  (si disponible)
 - Le rapport écrit en PDF (si disponible)  
 - Le support visuel (PDF)  
 
@@ -71,7 +71,6 @@ Chaque projet contient :
 **Outils / Librairies** : Python, Pandas, NumPy, Matplotlib, Seaborn  
 **Résultats attendus** : Graphiques clairs et résumés statistiques.  
 **Ressources** :  
-- [Code](./Traitement-de-donnees/code)  
 - [Rapport](./Traitement-de-donnees/rapport.pdf)  
 - [Support visuel](./Traitement-de-donnees/support.pdf)
 
@@ -104,7 +103,6 @@ Chaque projet contient :
 **Outils / Librairies** : Python, Pandas, Matplotlib  
 **Résultats attendus** : Graphiques et synthèses des données ouvertes.  
 **Ressources** :  
-- [Code](./OpenData/code)  
 - [Support visuel](./OpenData/support.pdf)
 
 ---
