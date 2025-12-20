@@ -49,9 +49,11 @@ Chaque projet contient :
 **Outils / Librairies** : Python, NumPy, SciPy, Matplotlib  
 **Résultats attendus** : Comparaison des scénarios, graphiques de stockage en fonction des paramètres.  
 **Ressources** :  
-- [Code](./Analyse-numerique-stockage-de-co2-dans-les-forets/code)  
-- [Rapport](./Analyse-numerique-stockage-de-co2-dans-les-forets/rapport.pdf)  
-- [Support visuel](./Analyse-numerique-stockage-de-co2-dans-les-forets/support.pdf)
+**Ressources** :  
+- [Code](./Analyse-numerique-du-stockage-de-co2-dans-les-forets/code)  
+- [Rapport](./Analyse-numerique-du-stockage-de-co2-dans-les-forets/rapport.pdf)  
+- [Support visuel](./Analyse-numerique-du-stockage-de-co2-dans-les-forets/support.pdf)
+
 
 ### 5. Régression linéaire
 **Objectif** : Implémenter et analyser des modèles de régression linéaire simple et multiple.  
